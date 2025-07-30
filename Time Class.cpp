@@ -1,3 +1,29 @@
+
+/*Assignment Test:
+t1: 1d 2h 30m 45s
+t2: 1d 2h 30m 45s
+
+Addition Test:
+0d 23h 59m 50s + 0d 0h 0m 15s = 1d 0h 0m 5s
+
+Subtraction Test:
+1d 0h 0m 30s - 0d 1h 0m 45s = 0d 22h 59m 45s
+
+Relational Operators Test:
+0d 5h 10m 10s > 0d 4h 59m 59s = 1
+0d 5h 10m 10s < 0d 4h 59m 59s = 0
+0d 5h 10m 10s >= 0d 4h 59m 59s = 1
+0d 5h 10m 10s <= 0d 4h 59m 59s = 0
+0d 5h 10m 10s == 0d 4h 59m 59s = 0
+
+Ostream Operator Test:
+Time: 2d 12h 5m 30s
+
+Integer Conversion Test:
+1d 1h 1m 1s = 90061 seconds
+*/
+
+
 #include "Time.h"
 #include <iostream>
 
